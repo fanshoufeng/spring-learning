@@ -6,4 +6,8 @@
   <packaging>pom</packaging>
   <name>spring-learning-parent</name>
   <description>spring-learning-parent</description>
+  <modules>
+  	<module>spring-boot</module>
+  	<module>spring-cloud</module>
+  </modules>
 </project>
