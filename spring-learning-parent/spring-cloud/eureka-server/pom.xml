@@ -2,14 +2,10 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.fanshoufeng</groupId>
-    <artifactId>spring-learning-parent</artifactId>
+    <artifactId>spring-cloud</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>spring-cloud</artifactId>
-  <packaging>pom</packaging>
-  <name>spring-cloud</name>
-  <description>spring-cloud</description>
-  <modules>
-  	<module>eureka-server</module>
-  </modules>
+  <artifactId>eureka-server</artifactId>
+  <name>eureka-server</name>
+  <description>eureka-server</description>
 </project>
