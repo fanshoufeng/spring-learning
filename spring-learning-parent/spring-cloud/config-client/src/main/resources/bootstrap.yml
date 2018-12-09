@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: foo
+      profile: development
+      uri: ${CONFIG_SERVER_URL:http://localhost:8888}
+      label: master
